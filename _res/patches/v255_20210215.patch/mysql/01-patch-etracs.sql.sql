@@ -1443,3 +1443,8 @@ CREATE TABLE `rpt_syncdata_completed` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 ;
 
+
+alter table rptledger_item add ( 
+  fromqtr int(11) null,   
+  toqtr int(11) null 
+);

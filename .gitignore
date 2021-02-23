@@ -7,3 +7,4 @@ _custom
 Thumbs.db
 *.mp4
 /client
+/fileserver
